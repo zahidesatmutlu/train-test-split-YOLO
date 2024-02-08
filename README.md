@@ -7,6 +7,7 @@ Before running the script you need to edit a few variables.
  1. Point where your YOLO dataset images is by changing  `input_images_folder`  at line 44.
  2. Point where your YOLO dataset labels is by changing  `input_labels_folder`  at line 45.
  3. Edit the  `output_folder`  at line 46 to set the output folder.
+ 4. Edit the `split_dataset` function parameters at line 5 to set the splitting percentages.
  
  Finally run the script. How long it takes to run depends on your dataset and your environment.
 
